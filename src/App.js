@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './css/reset.css';
+import './css/styles.css';
+import './css/themes/white-grey.css';
 
 class App extends Component {
   render() {
