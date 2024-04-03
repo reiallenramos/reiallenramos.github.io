@@ -5,19 +5,13 @@
 ### `npm start`
 
 ## Deployment
-To deploy the contents of master, overwrite the gh-pages branch:
-```
-git checkout gh-pages
-git reset --hard master
-```
-
-Then while still on the gh-pages branch:
+To deploy the contents of master:
 ```
 npm run build
 npm run deploy
 ```
 
-`npm run deploy` automatically pushes the gh-pages branch to the corresponding remote branch.
+Important: You don't need to have a local `gh-pages` branch. `npm run deploy` automatically updates the `gh-pages` branch in remote
 
 Everything below was from the default README.
 
