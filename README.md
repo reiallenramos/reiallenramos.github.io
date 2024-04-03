@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My portfolio
+
+### `npm install`
+### `npm start`
+
+Everything below was from the default README
 
 ## Available Scripts
 
