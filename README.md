@@ -1,9 +1,25 @@
 # My portfolio
 
+## Development
 ### `npm install`
 ### `npm start`
 
-Everything below was from the default README
+## Deployment
+To deploy the contents of master, overwrite the gh-pages branch:
+```
+git checkout gh-pages
+git reset --hard master
+```
+
+Then while still on the gh-pages branch:
+```
+npm run build
+npm run deploy
+```
+
+`npm run deploy` automatically pushes the gh-pages branch to the corresponding remote branch.
+
+Everything below was from the default README.
 
 ## Available Scripts
 
