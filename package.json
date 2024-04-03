@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "reiallenramos.github.io",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://reiallenramos.github.io",
@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
